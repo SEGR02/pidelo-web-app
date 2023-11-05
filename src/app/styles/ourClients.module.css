@@ -1,0 +1,74 @@
+.mainContainer {
+  background: linear-gradient(to bottom, #500037, #710046, #3f013a);
+  width: 99vw;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+  height: 100px;
+}
+
+.titleContainer {
+  background-color: #fff;
+  width: 22vw;
+  font-size: 40px;
+  padding-left: 2vw;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  margin-top: 10vh;
+}
+
+.title {
+  margin: 0;
+}
+
+.colorTitleWord {
+  color: #46003f;
+  font-weight: bold;
+}
+
+.card {
+  background-color: #fff;
+  border: 21px #312a2a solid;
+  width: 475px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.cardsContainer {
+  margin-top: 16vh;
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+  margin-bottom: 15vh;
+}
+
+.cardImage {
+  margin-top: -180px;
+}
+
+.clientName {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.clientReview {
+  font-size: 20px;
+}
+
+.cardDown {
+  margin-top: 10vh;
+}
+
+.arrows {
+  margin-top: 20vh;
+}

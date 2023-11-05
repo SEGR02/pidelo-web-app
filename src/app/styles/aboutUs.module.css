@@ -1,0 +1,101 @@
+.mainContainer {
+  background: linear-gradient(to bottom, #500037, #710046, #3f013a);
+  width: 99vw;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.sectionTitle {
+  background-color: #fff;
+  width: 30vw;
+  font-size: 40px;
+  padding: 14px 0;
+  margin-top: 20px;
+}
+
+.header {
+  height: 100px;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.descriptionTitle {
+  color: #fff;
+  margin-left: 60px;
+  font-size: 35px;
+  width: 460px;
+}
+
+.mainSection {
+  display: flex;
+}
+
+.card {
+  background-color: #fff;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  border-radius: 31px;
+  height: 350px;
+  padding: 18px;
+  width: 300px;
+}
+
+.cardTitle {
+  color: #4d012e;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.cardDescription {
+  font-size: 21px;
+  margin-top: 0;
+}
+
+.cardsContainer {
+  display: flex;
+}
+
+.cardRigth {
+  margin-left: 120px;
+}
+
+.cardMiddle {
+  margin-top: 180px;
+}
+
+.cardLeft {
+  margin-left: 70px;
+  margin-top: 100px;
+}
+
+.figure {
+  position: absolute;
+  right: 0;
+  bottom: 1;
+  margin-top: 380px;
+  height: 885px;
+  width: 900px;
+  overflow: hidden;
+}
+
+.lastP {
+  color: #fff;
+  text-align: end;
+  position: sticky;
+  font-size: 35px;
+  margin-right: 80px;
+  margin-top: 0px;
+}
+
+.footerContainer {
+  position: sticky !important;
+}
