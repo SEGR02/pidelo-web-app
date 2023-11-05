@@ -1,7 +1,8 @@
 .mainContainer {
   background: linear-gradient(to bottom, #500037, #710046, #3f013a);
-  width: 99vw;
   height: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
 .link {
@@ -163,4 +164,152 @@
 
 .footerTitle {
   font-weight: bold;
+}
+
+.menuMobile {
+  display: none;
+}
+
+@media screen and (max-width: 1465px) {
+  .containerRigthP {
+    width: 40vw;
+    padding-right: 90px;
+  }
+  .image1 {
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .containerRigthP {
+    width: 34vw;
+  }
+  .image1 {
+    width: 500px;
+    height: 280px;
+    margin-left: 2vw;
+  }
+  .rigthP {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1315px) {
+  .ball {
+    height: 700px;
+  }
+  .title {
+    font-size: 36px;
+    width: 400px;
+  }
+
+  .p {
+    width: 400px;
+    font-size: 31px;
+  }
+  .buttonContainer {
+    width: 450px;
+  }
+  .image2 {
+    top: 635px;
+  }
+  .rigthP {
+    font-size: 26px;
+  }
+  .navbar {
+    width: 90;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .menuMobile {
+    display: inherit;
+    height: 60px;
+    width: 60px;
+  }
+  .containerLinks {
+    display: none;
+  }
+  .containerCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin-top: 70vh;
+  }
+  .image2 {
+    position: inherit;
+  }
+  .imageWithCardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    margin-top: -50px;
+  }
+  .cardCustom {
+    margin-top: 0;
+  }
+  .rigthSection1 {
+    top: 730px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .containerRigthP {
+    width: 70vw;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    padding-right: 35px;
+  }
+  .image1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .navbar {
+    margin: 0 20px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .ball {
+    height: 520px;
+    width: 500px;
+  }
+  .title {
+    font-size: 24px;
+    width: 250px;
+  }
+
+  .p {
+    width: 250px;
+    font-size: 20px;
+  }
+  .rigthSection1 {
+    margin-top: -23vh;
+  }
+  .buttonContainer {
+    width: 250px;
+  }
+  .button {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .firstFooter {
+    flex-direction: column;
+    align-items: center;
+  }
+  .rigthP {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 530px) {
 }

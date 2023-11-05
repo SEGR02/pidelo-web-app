@@ -4,6 +4,7 @@ import Link from "next/link";
 import styles from "../styles/home.module.css";
 import darkLogo from "../assets/withoutbgfinalDark.svg";
 import lightLogo from "../assets/withoutbgfinalLight.svg";
+import menuMobile from "../assets/menuMobileLight.png";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {
@@ -23,6 +24,9 @@ const Navbar = () => {
             }
           />
         </Link>
+      </div>
+      <div>
+        <Image className={styles.menuMobile} alt="" src={menuMobile} />
       </div>
       <div className={styles.containerLinks}>
         <Link className={styles.link} href="/aboutUs">

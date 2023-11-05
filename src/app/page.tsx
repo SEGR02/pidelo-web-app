@@ -35,7 +35,7 @@ export default function Home() {
               </h2>
             </div>
           </div>
-          <Image alt="" src={ball} />
+          <Image className={styles.ball} alt="" src={ball} />
         </div>
       </main>
       <section className={styles.containerCards}>
@@ -45,7 +45,7 @@ export default function Home() {
             <span className={styles.colorCardsP}>éxito de los negocios.</span>
           </p>
         </div>
-        <div>
+        <div className={styles.imageWithCardContainer}>
           <Image className={styles.image2} alt="" src={image2} />
           <div className={styles.cardCustom}>
             <p className={styles.cardsP}>
