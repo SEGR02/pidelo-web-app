@@ -359,26 +359,26 @@
 
 @media screen and (max-width: 463px) {
   .rigthP {
-    font-size: 16px;
+    font-size: 14px;
   }
   .ball {
     height: 300px;
     width: 280px;
   }
   .title {
-    font-size: 16px;
+    font-size: 14px;
     width: 200px;
   }
 
   .p {
     width: 200px;
-    font-size: 14px;
+    font-size: 12px;
   }
   .buttonContainer {
     width: 150px;
   }
   .button {
-    font-size: 14px;
+    font-size: 11px;
     padding: 6px 12px;
   }
   .rigthSection1 {
