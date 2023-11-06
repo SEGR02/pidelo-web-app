@@ -26,7 +26,9 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.rigthSection1}>
-            <Image className={styles.image1} alt="" src={image1} />
+            <div className={styles.img1Container}>
+              <Image className={styles.image1} alt="" src={image1} />
+            </div>
             <div className={styles.containerRigthP}>
               <h2 className={styles.rigthP}>
                 <span className={styles.colorRigthP}>Es simple.</span> Los

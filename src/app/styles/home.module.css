@@ -312,4 +312,94 @@
 }
 
 @media screen and (max-width: 530px) {
+  .ball {
+    height: 400px;
+    width: 380px;
+  }
+  .leftSection1 {
+    margin: 0;
+    margin-left: 50px;
+    margin-top: -30px;
+  }
+  .buttonContainer {
+    width: 195px;
+  }
+  .rigthSection1 {
+    margin-top: -42vh;
+  }
+  .containerCards {
+    margin-top: 55vh;
+  }
+  .image1 {
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    display: inherit;
+  }
+  .img1Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 463px) {
+  .rigthP {
+    font-size: 16px;
+  }
+  .ball {
+    height: 300px;
+    width: 280px;
+  }
+  .title {
+    font-size: 16px;
+    width: 200px;
+  }
+
+  .p {
+    width: 200px;
+    font-size: 14px;
+  }
+  .buttonContainer {
+    width: 150px;
+  }
+  .button {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+  .rigthSection1 {
+    margin-top: -58vh;
+  }
+  .containerCards {
+    margin-top: 51vh;
+  }
+  .imageWithCardContainer {
+    margin-top: -3vh;
+  }
+  .card {
+    height: 140px;
+    width: 300px;
+  }
+  .cardsP {
+    font-size: 20px;
+  }
+  .cardCustom {
+    height: 140px;
+    width: 300px;
+    margin-left: 0;
+  }
+  .imageWithCardContainer {
+    justify-content: center;
+    align-items: center;
+  }
+  .image2 {
+    width: 300px;
+    height: 220px;
+  }
+  .rigthP {
+    margin-left: 20px;
+  }
+  .finalFooterContainer {
+    text-align: center;
+  }
 }
