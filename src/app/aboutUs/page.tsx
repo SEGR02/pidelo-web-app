@@ -15,7 +15,7 @@ export default function AboutUs() {
         <Navbar />
       </header>
       <main className={styles.mainSection}>
-        <div>
+        <div className={styles.mainSectionRight}>
           <div className={styles.sectionTitle}>
             <p className={styles.title}>¿Qué te ofrecemos?</p>
           </div>
