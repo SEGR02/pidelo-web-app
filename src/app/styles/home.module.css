@@ -309,6 +309,9 @@
   .rigthP {
     font-size: 20px;
   }
+  .button {
+    padding: 8px 14px;
+  }
 }
 
 @media screen and (max-width: 530px) {
