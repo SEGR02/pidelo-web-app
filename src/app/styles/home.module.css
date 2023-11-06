@@ -364,7 +364,7 @@
 
 @media screen and (max-width: 463px) {
   .rigthP {
-    font-size: 14px;
+    font-size: 12.5px;
   }
   .ball {
     height: 300px;
@@ -387,7 +387,7 @@
     padding: 6px 12px;
   }
   .rigthSection1 {
-    margin-top: -58vh;
+    margin-top: -57vh;
   }
   .containerCards {
     margin-top: 51vh;
@@ -426,7 +426,7 @@
     height: 75px;
   }
   .menuMobile {
-    height: 45px;
-    width: 45px;
+    height: 35px;
+    width: 35px;
   }
 }
