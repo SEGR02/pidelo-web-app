@@ -14,6 +14,7 @@ const Navbar = () => {
       <div>
         <Link className={styles.link} href="/">
           <Image
+            className={styles.logo}
             width="130"
             height="91"
             alt=""
