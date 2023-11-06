@@ -322,6 +322,10 @@
     height: 400px;
     width: 380px;
   }
+  .p {
+    width: 220px;
+    font-size: 18px;
+  }
   .leftSection1 {
     margin: 0;
     margin-left: 50px;
@@ -349,6 +353,7 @@
   }
   .button {
     padding: 8px 14px;
+    font-size: 16px;
   }
 }
 
