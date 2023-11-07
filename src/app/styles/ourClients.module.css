@@ -1,6 +1,5 @@
 .mainContainer {
   background: linear-gradient(to bottom, #500037, #710046, #3f013a);
-  width: 99vw;
   height: 100%;
   position: relative;
   overflow: hidden;
@@ -12,8 +11,8 @@
 
 .titleContainer {
   background-color: #fff;
-  width: 22vw;
-  font-size: 40px;
+  width: 350px;
+  font-size: 34px;
   padding-left: 2vw;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -71,4 +70,36 @@
 
 .arrows {
   margin-top: 20vh;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+  .cardsContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 170px;
+  }
+  .arrows {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .titleContainer {
+    width: 250px;
+    font-size: 26px;
+  }
+  .card {
+    width: 375px;
+    height: 220px;
+  }
+  .clientName {
+    font-size: 26px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  .clientReview {
+    font-size: 18px;
+    margin: 0;
+  }
 }
