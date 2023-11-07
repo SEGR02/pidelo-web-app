@@ -30,16 +30,36 @@ const Navbar = () => {
         <Image className={styles.menuMobile} alt="" src={menuMobile} />
       </div>
       <div className={styles.containerLinks}>
-        <Link className={styles.link} href="/aboutUs">
+        <Link
+          style={pathname.includes("/aboutUs") ? { fontWeight: "bold" } : {}}
+          className={styles.link}
+          href="/aboutUs"
+        >
           Sobre Nostros
         </Link>
-        <Link className={styles.link} href="/wantMyVirtualStore">
+        <Link
+          style={
+            pathname.includes("/wantMyVirtualStore")
+              ? { fontWeight: "bold" }
+              : {}
+          }
+          className={styles.link}
+          href="/wantMyVirtualStore"
+        >
           Quiero Mi Tienda <br /> Virtual
         </Link>
-        <Link className={styles.link} href="/contact">
+        <Link
+          style={pathname.includes("/contact") ? { fontWeight: "bold" } : {}}
+          className={styles.link}
+          href="/contact"
+        >
           Contacto
         </Link>
-        <Link className={styles.link} href="/ourClients">
+        <Link
+          style={pathname.includes("/ourClients") ? { fontWeight: "bold" } : {}}
+          className={styles.link}
+          href="/ourClients"
+        >
           Nuestros <br /> Clientes
         </Link>
         <Link className={styles.link} target="_blank" href="https://google.com">

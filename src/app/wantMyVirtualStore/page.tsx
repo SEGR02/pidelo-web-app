@@ -3,7 +3,7 @@ import styles from "../styles/wantMyVirtualStore.module.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Image from "next/image";
-import steps from "../assets/steps.svg";
+import steps from "../assets/stepsFinal.svg";
 
 export default function WantMyVirtualStore() {
   return (
