@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Image from "next/image";
 import steps from "../assets/stepsFinal.svg";
+import stepsMobile from "../assets/stepsMobile.svg";
 
 export default function WantMyVirtualStore() {
   return (
@@ -25,6 +26,7 @@ export default function WantMyVirtualStore() {
         </div>
         <div className={styles.stepsImageContainer}>
           <Image className={styles.stepsImage} alt="" src={steps} />
+          <Image className={styles.stepsImageMobile} alt="" src={stepsMobile} />
         </div>
       </main>
       <footer className={styles.footerContainer}>

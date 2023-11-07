@@ -11,7 +11,7 @@
 
 .titleContainer {
   background-color: #fff;
-  width: 35vw;
+  width: 520px;
   padding-left: 1.5vw;
   padding-top: 2vh;
   padding-bottom: 2vh;
@@ -21,7 +21,7 @@
 }
 
 .title {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 200;
   margin: 0;
 }
@@ -33,7 +33,7 @@
 
 .descriptionTitle {
   color: #fff;
-  font-size: 26px;
+  font-size: 25px;
   margin-left: 1.5vw;
   margin-top: 6vh;
   font-weight: 200;
@@ -50,4 +50,33 @@
 .stepsImage {
   width: 100%;
   height: 100%;
+}
+
+.stepsImageMobile {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .stepsImage {
+    display: none;
+  }
+  .stepsImageMobile {
+    display: inherit;
+  }
+  .stepsImageContainer {
+    width: 111%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 12vh;
+  }
+  .titleContainer {
+    width: 300px;
+  }
+  .title {
+    font-size: 17px;
+  }
+  .descriptionTitle {
+    font-size: 14px;
+  }
 }
