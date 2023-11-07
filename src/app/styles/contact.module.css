@@ -160,5 +160,32 @@
   }
   .footerContainer {
     margin-top: 10%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .titleContainer {
+    top: 80px;
+  }
+  .title {
+    font-size: 20px;
+    width: 350px;
+  }
+  .description {
+    font-size: 15.2px;
+    width: 213px;
+  }
+  .circle {
+    height: 278px;
+    width: 321px;
+  }
+  .imgWs {
+    width: 195px;
+    height: 120px;
+  }
+  .contactCard {
+    height: 500px;
+    width: 280px;
   }
 }
