@@ -24,7 +24,7 @@ export default function WantMyVirtualStore() {
           </p>
         </div>
         <div className={styles.stepsImageContainer}>
-          <Image alt="" src={steps} />
+          <Image className={styles.stepsImage} alt="" src={steps} />
         </div>
       </main>
       <footer className={styles.footerContainer}>
