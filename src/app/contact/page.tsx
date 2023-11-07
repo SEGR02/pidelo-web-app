@@ -6,8 +6,23 @@ import Footer from "../components/Footer";
 import imgWs from "../assets/imgWhatsApp.svg";
 import circle from "../assets/circleContact.svg";
 import wsIcon from "../assets/wsIcon.svg";
+import { useState } from "react";
+import Link from "next/link";
 
 export default function Contact() {
+  const [name, setName] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [message, setMessage] = useState("");
+  const finalMessage = encodeURIComponent(
+    `Hola soy ${name}, mi numero de telefono es ${phoneNumber}. ${message}`
+  );
+
+  // const mensaje =
+  //   "¡Hola Diego! nos interesa tu perfil como desarrollador Front-end.";
+  // console.log(mensajeCodificado);
+  // console.log(name);
+  // console.log(phoneNumber);
+  // console.log(message);
   return (
     <div className={styles.mainContainer}>
       <header className={styles.header}>
@@ -35,28 +50,55 @@ export default function Contact() {
                   <label className={styles.label} htmlFor="name">
                     Nombre
                   </label>
-                  <input id="name" className={styles.input} type="text" />
+                  <input
+                    required
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    id="name"
+                    className={styles.input}
+                    type="text"
+                  />
                 </div>
                 <div className={styles.inputContainer}>
                   <label className={styles.label} htmlFor="phone">
                     Celular
                   </label>
-                  <input id="phone" className={styles.input} type="text" />
+                  <input
+                    required
+                    value={phoneNumber}
+                    onChange={(e) => setPhoneNumber(e.target.value)}
+                    id="phone"
+                    className={styles.input}
+                    type="text"
+                  />
                 </div>
                 <div className={styles.inputContainer}>
                   <label className={styles.label} htmlFor="message">
                     Mensaje
                   </label>
                   <textarea
+                    required
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
                     className={styles.input}
                     id="message"
                     rows={5}
                   ></textarea>
                 </div>
-                <button className={styles.button}>
-                  <Image className={styles.wsIcon} alt="" src={wsIcon} />
-                  Enviar
-                </button>
+                <Link
+                  className={styles.linkOff}
+                  target="_blank"
+                  href={
+                    finalMessage
+                      ? `https://wa.me/51948573972?text=${finalMessage}`
+                      : "https://wa.me/51948573972"
+                  }
+                >
+                  <button type="button" className={styles.button}>
+                    <Image className={styles.wsIcon} alt="" src={wsIcon} />
+                    Enviar
+                  </button>
+                </Link>
               </form>
             </div>
           </div>

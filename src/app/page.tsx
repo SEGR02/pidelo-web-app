@@ -6,6 +6,7 @@ import ball from "./assets/ball.svg";
 import image1 from "./assets/Img1.svg";
 import image2 from "./assets/img2.svg";
 import Footer from "./components/Footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,7 +23,9 @@ export default function Home() {
               línea de una manera facil y rápida.
             </h2>
             <div className={styles.buttonContainer}>
-              <button className={styles.button}>¿Qué te ofrecemos?</button>
+              <Link href="/aboutUs">
+                <button className={styles.button}>¿Qué te ofrecemos?</button>
+              </Link>
             </div>
           </div>
           <div className={styles.rigthSection1}>
