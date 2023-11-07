@@ -195,6 +195,12 @@
   padding-top: 10px;
   align-items: center;
   margin: 0;
+  overflow: hidden;
+  transition: max-height 0.9s ease;
+
+  .showMobileMenu.open {
+    max-height: 100vh;
+  }
 
   .link {
     border-bottom: 1px solid #c1c1c1;
