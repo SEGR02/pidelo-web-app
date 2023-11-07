@@ -5,10 +5,13 @@ import styles from "../styles/home.module.css";
 import darkLogo from "../assets/withoutbgfinalDark.svg";
 import lightLogo from "../assets/withoutbgfinalLight.svg";
 import menuMobile from "../assets/menuMobileLight.png";
+import close from "../assets/close.png";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 
 const Navbar = () => {
   const pathname = usePathname();
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <nav className={styles.navbar}>
       <div>
@@ -27,9 +30,18 @@ const Navbar = () => {
         </Link>
       </div>
       <div>
-        <Image className={styles.menuMobile} alt="" src={menuMobile} />
+        <Image
+          onClick={() => setShowMenu(!showMenu)}
+          className={styles.menuMobile}
+          alt=""
+          src={showMenu ? close : menuMobile}
+        />
       </div>
-      <div className={styles.containerLinks}>
+      <div
+        className={`${styles.containerLinks} ${
+          showMenu ? styles.showMobileMenu : ""
+        }`}
+      >
         <Link
           style={pathname.includes("/aboutUs") ? { fontWeight: "bold" } : {}}
           className={styles.link}

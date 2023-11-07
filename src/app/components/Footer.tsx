@@ -38,7 +38,16 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.finalFooterContainer}>
-        <p>© 2023 Pidelo. Todos los derechos reservados | Designd @Sebas</p>
+        <p>
+          © 2023 Pidelo. Todos los derechos reservados | Designd{" "}
+          <a
+            className={styles.sebasPortfolio}
+            target="_blank"
+            href="https://exquisite-vacherin-7cbb35.netlify.app"
+          >
+            @Sebas
+          </a>
+        </p>
       </div>
     </>
   );
