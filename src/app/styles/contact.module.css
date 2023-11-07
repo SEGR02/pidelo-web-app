@@ -187,6 +187,9 @@
   }
   .contactCard {
     height: 500px;
-    width: 280px;
+    width: 310px;
+  }
+  .label {
+    font-size: 15px;
   }
 }

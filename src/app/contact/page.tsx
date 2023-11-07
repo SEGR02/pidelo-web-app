@@ -32,15 +32,21 @@ export default function Contact() {
               </div>
               <form className={styles.formContainer} action="">
                 <div className={styles.inputContainer}>
-                  <label htmlFor="name">Nombre</label>
+                  <label className={styles.label} htmlFor="name">
+                    Nombre
+                  </label>
                   <input id="name" className={styles.input} type="text" />
                 </div>
                 <div className={styles.inputContainer}>
-                  <label htmlFor="phone">Celular</label>
+                  <label className={styles.label} htmlFor="phone">
+                    Celular
+                  </label>
                   <input id="phone" className={styles.input} type="text" />
                 </div>
                 <div className={styles.inputContainer}>
-                  <label htmlFor="message">Mensaje</label>
+                  <label className={styles.label} htmlFor="message">
+                    Mensaje
+                  </label>
                   <textarea
                     className={styles.input}
                     id="message"
