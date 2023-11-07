@@ -1,6 +1,5 @@
 .mainContainer {
   background: linear-gradient(to bottom, #500037, #710046, #3f013a);
-  width: 99vw;
   height: 100%;
   position: relative;
   overflow: hidden;
@@ -15,7 +14,7 @@
 .titleContainer {
   margin-left: 9vw;
   position: absolute;
-  top: 100px;
+  top: 120px;
 }
 
 .imgContainer {
@@ -23,13 +22,13 @@
 }
 
 .title {
-  font-size: 48px;
+  font-size: 41px;
   font-weight: bold;
   width: 500px;
 }
 
 .description {
-  font-size: 40px;
+  font-size: 31.2px;
   width: 420px;
 }
 
@@ -52,7 +51,7 @@
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 44px;
+  font-size: 34px;
   font-weight: bold;
 }
 
@@ -85,7 +84,7 @@
 .input {
   border: 1px #c1c1c1 solid;
   border-radius: 4px;
-  padding: 1.5vh 0;
+  padding: 1.5vh;
 }
 
 .contactCardContainer {
@@ -96,4 +95,70 @@
 
 .footerContainer {
   margin-top: 15vh;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.circle {
+  height: 500px;
+}
+
+@media screen and (max-width: 1375px) {
+  .contactCardContainer {
+    right: 50px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .mainSectionContainer {
+    flex-direction: column;
+  }
+  .contactCard {
+    margin-left: 0;
+  }
+  .contactCardContainer {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  .imgContainer {
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .circle {
+    height: 350px;
+    width: 400px;
+  }
+  .title {
+    font-size: 24px;
+    width: 400px;
+  }
+  .description {
+    font-size: 18.2px;
+    width: 250px;
+  }
+  .imgWs {
+    width: 400px;
+    height: 200px;
+  }
+  .contactCard {
+    height: 520px;
+    width: 350px;
+  }
+  .formContainer {
+    padding: 5%;
+    gap: 25px;
+  }
+  .cardHeader {
+    font-size: 26px;
+  }
+  .footerContainer {
+    margin-top: 10%;
+  }
 }

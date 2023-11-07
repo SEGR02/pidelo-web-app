@@ -14,7 +14,7 @@ export default function Contact() {
         <Navbar />
       </header>
       <main>
-        <Image alt="" src={circle} />
+        <Image className={styles.circle} alt="" src={circle} />
         <div className={styles.titleContainer}>
           <p className={styles.title}>Eres cliente o necesitas contactarnos?</p>
           <p className={styles.description}>
@@ -23,7 +23,7 @@ export default function Contact() {
         </div>
         <div className={styles.mainSectionContainer}>
           <div className={styles.imgContainer}>
-            <Image alt="" src={imgWs} />
+            <Image className={styles.imgWs} alt="" src={imgWs} />
           </div>
           <div className={styles.contactCardContainer}>
             <div className={styles.contactCard}>
@@ -31,20 +31,19 @@ export default function Contact() {
                 <p>Contactanos</p>
               </div>
               <form className={styles.formContainer} action="">
-                <div style={{ display: "flex", flexDirection: "column" }}>
-                  <label htmlFor="">Nombre</label>
-                  <input className={styles.input} type="text" />
+                <div className={styles.inputContainer}>
+                  <label htmlFor="name">Nombre</label>
+                  <input id="name" className={styles.input} type="text" />
                 </div>
-                <div style={{ display: "flex", flexDirection: "column" }}>
-                  <label htmlFor="">Celular</label>
-                  <input className={styles.input} type="text" />
+                <div className={styles.inputContainer}>
+                  <label htmlFor="phone">Celular</label>
+                  <input id="phone" className={styles.input} type="text" />
                 </div>
-                <div style={{ display: "flex", flexDirection: "column" }}>
-                  <label htmlFor="">Mensaje</label>
+                <div className={styles.inputContainer}>
+                  <label htmlFor="message">Mensaje</label>
                   <textarea
                     className={styles.input}
-                    name=""
-                    id=""
+                    id="message"
                     rows={5}
                   ></textarea>
                 </div>
