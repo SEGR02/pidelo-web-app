@@ -20,7 +20,7 @@ export default function Home() {
             <h1 className={styles.title}>Seremos tu aliado estratégico</h1>
             <h2 className={styles.p}>
               Te permitiremos tener presencia en el mundo digital y vender en
-              línea de una manera facil y rápida.
+              línea de una manera fácil y rápida.
             </h2>
             <div className={styles.buttonContainer}>
               <Link href="/aboutUs">

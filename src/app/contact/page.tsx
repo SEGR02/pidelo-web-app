@@ -16,13 +16,6 @@ export default function Contact() {
   const finalMessage = encodeURIComponent(
     `Hola soy ${name}, mi numero de telefono es ${phoneNumber}. ${message}`
   );
-
-  // const mensaje =
-  //   "¡Hola Diego! nos interesa tu perfil como desarrollador Front-end.";
-  // console.log(mensajeCodificado);
-  // console.log(name);
-  // console.log(phoneNumber);
-  // console.log(message);
   return (
     <div className={styles.mainContainer}>
       <header className={styles.header}>
@@ -33,7 +26,7 @@ export default function Contact() {
         <div className={styles.titleContainer}>
           <p className={styles.title}>Eres cliente o necesitas contactarnos?</p>
           <p className={styles.description}>
-            Dejanos tus datos y en breve nos comunicaremos contigo
+            Déjanos tus datos y en breve nos comunicaremos contigo
           </p>
         </div>
         <div className={styles.mainSectionContainer}>
@@ -43,7 +36,7 @@ export default function Contact() {
           <div className={styles.contactCardContainer}>
             <div className={styles.contactCard}>
               <div className={styles.cardHeader}>
-                <p>Contactanos</p>
+                <p>Contáctanos</p>
               </div>
               <form className={styles.formContainer} action="">
                 <div className={styles.inputContainer}>

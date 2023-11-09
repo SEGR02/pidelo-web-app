@@ -28,7 +28,7 @@ export default function AboutUs() {
             <p className={styles.cardTitle}>Contar con una tienda virtual</p>
             <p className={styles.cardDescription}>
               Le ayudaremos a crear tu propia tienda virtual. Podras subir tus
-              productos, informacion y fotos referenciales. Todo lo que tus
+              productos, información y fotos referenciales. Todo lo que tus
               clientes necesitan saber para realizar su pedido
             </p>
           </div>
@@ -40,9 +40,9 @@ export default function AboutUs() {
               Agilidad y control de tus pedidos
             </p>
             <p className={styles.cardDescription}>
-              Te brindaremos una pagina web para que controles y monitorees los
-              pedidos de tus cleintes. El pedido será preciso y con la
-              información que necesitas para atenderlo
+              Te brindaremos una página web para que controles los pedidos de
+              tus clientes. El pedido será preciso y con la información que
+              necesitas para atenderlo
             </p>
           </div>
           <div className={`${styles.card} ${styles.cardRigth}`}>
@@ -51,8 +51,8 @@ export default function AboutUs() {
               Podrás gestionar tus pedidos desde un único lugar
             </p>
             <p className={styles.cardDescription}>
-              Olvidate de estar respondiendo llamadas enviando informacion por
-              whatsapp, u otras redes sociales. Con "Pidelo" podrás centralizar
+              Olvídate de estar respondiendo llamadas enviando información por
+              WhatsApp, u otras redes sociales. Con "Pídelo" podrás centralizar
               los pedidos de tus clientes
             </p>
           </div>
@@ -62,7 +62,7 @@ export default function AboutUs() {
       <p className={styles.lastP}>
         Te ayudamos a potenciar tu negocio a <br /> través de las herramientas y
         oportunidades <br />
-        del mundo digital y así potenciar tus ventas
+        del mundo digital y así impulsar tus ventas
       </p>
       <footer className={styles.footerContainer}>
         <Footer />

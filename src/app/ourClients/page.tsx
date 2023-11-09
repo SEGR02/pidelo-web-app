@@ -27,7 +27,7 @@ export default function Contact() {
             <div>
               <p className={styles.clientName}>Lumay</p>
               <p className={styles.clientReview}>
-                Trabajo con Pidelo desde que comenzamos con Lumay 100%
+                Trabajo con Pídelo desde que comenzamos con Lumay 100%
                 recomendados
               </p>
             </div>
@@ -35,10 +35,10 @@ export default function Contact() {
           <div className={styles.card}>
             <Image className={styles.cardImage} alt="" src={clientimg2} />
             <div>
-              <p className={styles.clientName}>Corazon de Sucro</p>
+              <p className={styles.clientName}>Corazón de Sucro</p>
               <p className={styles.clientReview}>
-                Decidi iniciar mi negiocio virtualmente y ha sido mi mejor
-                decision gracias a Pidelo, muy buen servicio
+                Decidí iniciar mi negiocio virtualmente y ha sido mi mejor
+                decisión gracias a Pídelo, muy buen servicio
               </p>
             </div>
           </div>
