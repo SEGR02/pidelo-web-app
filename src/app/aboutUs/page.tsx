@@ -27,9 +27,9 @@ export default function AboutUs() {
             <Image alt="" src={cart} />
             <p className={styles.cardTitle}>Contar con una tienda virtual</p>
             <p className={styles.cardDescription}>
-              Le ayudaremos a crear tu propia tienda virtual. Podras subir tus
+              Te ayudaremos a crear tu propia tienda virtual. Podrás subir tus
               productos, información y fotos referenciales. Todo lo que tus
-              clientes necesitan saber para realizar su pedido
+              clientes necesitan saber para realizar su pedido.
             </p>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function AboutUs() {
             <p className={styles.cardDescription}>
               Te brindaremos una página web para que controles los pedidos de
               tus clientes. El pedido será preciso y con la información que
-              necesitas para atenderlo
+              necesitas para atenderlo.
             </p>
           </div>
           <div className={`${styles.card} ${styles.cardRigth}`}>
@@ -51,9 +51,9 @@ export default function AboutUs() {
               Podrás gestionar tus pedidos desde un único lugar
             </p>
             <p className={styles.cardDescription}>
-              Olvídate de estar respondiendo llamadas enviando información por
-              WhatsApp, u otras redes sociales. Con "Pídelo" podrás centralizar
-              los pedidos de tus clientes
+              Olvídate de estar respondiendo llamadas, enviando información por
+              WhatsApp u otras redes sociales. Con "Pídelo" podrás centralizar
+              los pedidos de tus clientes.
             </p>
           </div>
           <Image className={styles.figure} alt="" src={figure} />
